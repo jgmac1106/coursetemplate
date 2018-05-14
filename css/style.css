@@ -20,8 +20,13 @@ nav {
   list-style-type: none; 
 }
 
-nav .ul {
+nav ul {
   list-style-type: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: #6f6f59;
 }
 
 main {
@@ -31,12 +36,15 @@ main {
 aside {
   grid-area: side;
   margin-right: 0.5rem;
+  
 }
 
 footer {
   grid-area: footer;
   justify-content: space-between;
   align-items: center;
+  background-color: #87543c;
+  color: white;
 }
 @media (max-width: 768px) {
   .container {
@@ -94,8 +102,7 @@ header {
 
 .objective-grid-item {
   border: 2px solid #6f6f59;
-  width: 150px;
-  height: 150px;
+  width: 30%;
   color: white;
   background-color: #6f6f59;
   align-content: center;
@@ -115,9 +122,7 @@ header {
 }
 
 .discussion-grid-item {
- 
-  width: 475px;
-  height: 150px;
+  width: 100%;
   align-content: center;
 }
 
@@ -133,8 +138,8 @@ header {
 
 .box {
   border: 3px solid #6f6f59;
-  margin:20px;
   width:100%;
+  margin-bottom: .5rem;
 }
 
 .box img {
