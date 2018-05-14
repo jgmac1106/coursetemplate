@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Made with Thimble</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h4>EDU 307: Children's Literature and Literacy</h4>
+        <h4>Spring 2018</h4>
+
+
+      </header>
+
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="moduletemplate.html">Module One</a></li>
+        </ul>
+      </nav>
+
+      <main>
+        <section class="intro">
+          <div class='intro-grid-container'>
+            <div class='itro-grid'>
+              <div class='intro-grid-item first-item'>
+          <figure>
+            <img src="https://farm6.static.flickr.com/5052/5579527992_ea5009de5b_z.jpg"><figcaption><a title="Stop Questioning" href="http://flickr.com/photos/lel4nd/5579527992">flickr photo</a> shared by <a href="http://flickr.com/people/lel4nd">Lel4nd</a> under a <a href="http://creativecommons.org/licenses/by/2.0/">Creative Commons ( BY ) license</a> </small></figcaption>
+        </figure>
+            </div>
+            <div class='intro-grid-item'>
+              <p>
+                Join us why some stories have endured the test time. Explore why some narratives are amplified and other voices have gone unheard. Learn how to use  literature to teach  <strong>reading</strong>, <strong>writing </strong>, and <strong>empathy</strong>.
+              </p>
+            </div>
+          </div>
+        
+        </section>
+       <section class="readings">
+         <h2>The Readings</h2>
+          
+          <div class='objective-grid-container'>
+            <div class='objective-grid'>
+              
+              
+              <div class='objective-grid-item first-item'>
+                <h4>Title</h4>
+                <cite>
+                  <p class="h-cite"><span class="p-author h-card">Author</span> <time class="dt-published">(YYYY)</time>. <span class="p-name">Aritcle Title</span>. <span class="p-publication"><em>Journal Title, volume, number,</em> page range. <a class="u url"  href="http://doi.org/AddDOI">http://doi.org/AddDOI</a>
+                    </cite>
+              </div>
+              <div class='objective-grid-item'>
+                <h4>Title</h4>
+                <cite>
+                  <p class="h-cite"><span class="p-author h-card">Author</span> <time class="dt-published">(YYYY)</time>. <span class="p-name">Aritcle Title</span>. <span class="p-publication"><em>Journal Title, volume, number,</em> page range. <a class="u url"  href="http://doi.org/AddDOI">http://doi.org/AddDOI</a>
+                    </cite>
+              </div>
+              <div class='objective-grid-item'>
+                <h4>Title</h4>
+                <cite>
+                  <p class="h-cite"><span class="p-author h-card">Author</span> <time class="dt-published">(YYYY)</time>. <span class="p-name">Aritcle Title</span>. <span class="p-publication"><em>Journal Title, volume, number,</em> page range. <a class="u url"  href="http://doi.org/AddDOI">http://doi.org/AddDOI</a>
+                    </cite>
+            </div>
+          </div>
+        </section>
+        <section class="tasks">
+          <h2>The Tasks</h2>
+          <div class='tasks-grid-container'>
+          <div class='tasks-grid'>
+
+
+            <div class='tasks-grid-item first-item'>
+              
+              <h4> Read</h4>
+
+              <p>Complete the readings.</p>
+
+              <p>We will annotate the CCSS standards using Hypothes.is We will identify what students need to know (#knowledge), do (#skills), and provide some text ideas (#exemplars). A tutorial is provided.</p>
+              </div>
+            </div>
+            <div class='tasks-grid'>
+
+
+              <div class='tasks-grid-item first-item'>
+
+                <h4> Write</h4>
+
+                <p>Post on Your Blog</p>
+
+                <p>Describe weekly blogging assiggment</p>
+              </div>
+            </div>
+            <div class='tasks-grid'>
+
+
+              <div class='tasks-grid-item first-item'>
+
+                <h4> Participate</h4>
+
+                <p>Class Activity</p>
+
+                <p>Describe class activity</p>
+              </div>
+            </div>
+            
+            </section>
+          <section>
+            <div class="assessment-grid-container">
+              <div>
+                <h4>Criteria</h4>
+                <ul>
+                <li>item</li>
+                <li>item</li>  
+                </ul>
+              </div>
+              <div><h4>Evidence</h4>
+                <ul>
+                  <li>item</li>
+                  <li>item</li>  
+                </ul>
+              </div>  
+            </div>
+          </section>
+
+      </main>
+
+     
+
+      <footer>
+        <ul>
+          <li>Twitter</li>
+          <li>GitHub</li></ul>
+        <p class="h-card">
+          <img class="u-photo" src="http://www.southernct.edu/academics/schools/education/departments/elementaryeducation/faculty/images/SCSU_17_GregMcVarry-117fs.jpg" alt="" />
+          <a class="p-name u-url" href="http://example.org">Greg McVerry</a>
+          <a class="u-email" href="mailto:mcverryj1@southernct.edu">mcverryj1@southernct.edu</a>, 
+          <a class="p-organization u-url" href="http://www.southernct.edu/academics/schools/education/departments/elementaryeducation/index.html">Southern Connecticut State University</a>
+        </p>
+        <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+      </footer>
+    </div>
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+
+
+    <!-- Menu Toggle Script -->
+    <script>
+      $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+      });
+    </script>
+  </body>
+
+</html>
