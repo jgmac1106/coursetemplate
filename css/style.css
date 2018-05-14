@@ -1,0 +1,192 @@
+.container {
+  display: grid;
+
+  grid-template-areas:
+    "header header header"
+    "nav content side"
+    "footer footer footer";
+
+  grid-template-columns: 200px 1fr 200px;
+  grid-template-rows: auto 1fr auto;
+  grid-gap: 10px;
+
+  height: 100vh;
+}
+
+
+nav {
+  grid-area: nav;
+  margin-left: 0.5rem;
+  list-style-type: none; 
+}
+
+nav .ul {
+  list-style-type: none;
+}
+
+main {
+  grid-area: content;
+}
+
+aside {
+  grid-area: side;
+  margin-right: 0.5rem;
+}
+
+footer {
+  grid-area: footer;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  .container {
+    grid-template-areas:
+      "header"
+      "nav"
+      "content"
+      "side"
+      "footer";
+
+    grid-template-columns: 1fr;
+    grid-template-rows:
+      auto /* Header */
+      minmax(75px, auto) /* Nav */
+      1fr /* Content */
+      minmax(75px, auto) /* Sidebar */
+      auto; /* Footer */
+  }
+
+  nav, aside {
+    margin: 0;
+  }
+}
+header {
+  grid-area: header;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #6f6f59;
+  color: white;
+}
+
+.intro {
+  grid-area: main;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro img {
+  width:100%
+}
+
+.objective-grid {
+ 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.objective-grid-container {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.objective-grid-item {
+  border: 2px solid #6f6f59;
+  width: 150px;
+  height: 150px;
+  color: white;
+  background-color: #6f6f59;
+  align-content: center;
+  margin: .2rem;
+}
+
+.discussion-grid {
+  display: flex;
+  justify-content: center;    /* Change this */
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.discussion-grid-container {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.discussion-grid-item {
+ 
+  width: 475px;
+  height: 150px;
+  align-content: center;
+}
+
+.u-photo .avatar {
+  width:250px;
+  height:250px;
+  margin: 10px;
+  border:10px solid red;
+  border-radius: 500px;
+  -webkit-border-radius: 500px;
+  -moz-border-radius: 500px;
+}
+
+.box {
+  border: 3px solid #6f6f59;
+  margin:20px;
+  width:100%;
+}
+
+.box img {
+  width:40%;
+  margin: 10px;
+  border:2px solid #6f6f59;
+  border-radius: 50%;
+  -webkit-border-radius: 500px;
+  -moz-border-radius: 500px;
+}
+
+.cc:hover .text1,  .cc:hover .text2,.cc:hover .text3,.cc:hover .text3, .cc:hover .text4,.cc:hover .text5, .cc:hover .text6
+{ opacity:0.9;
+} 
+
+/* This is my css for the div overlay. Badically I made one containter. This container then holds three other divs...the image..the cc image..and the attribution text*/
+div.imageContainer
+/* You set the first container to float. This means it will go all the way to the left or the right. Stuff (call them elements to be proper) before the float will flow around it. Elements after the float are not affected*/{
+  float:left; 
+  position:relative;
+  height: 300;
+  width: 660;
+}
+div.imageContainer img
+{ 
+  width: 75%;
+}
+/* This is the div foor the cc image. Note the position is absolute. We don't want it to move. It is set to be in the bottom, left corner. You may have to twaek these values some*/
+div.overlayImage 
+{
+  position:absolute;
+  bottom:10px;
+  left:0px;    
+  opacity:0;
+  width:100px;
+}
+/* This is the div for the link back to flickr. Again the position is absolute*/ 
+div.attribution
+{
+  position: absolute;
+  width:70%;
+  bottom: 20px;
+  left: 100px;
+  opacity: 0;background-color: #fff;
+  font-size: 1em;
+}
+  
+
+  /* This is what makes the elements hover. Note the opacity  (scale of 0-1.0 is set to 0.7 here but to 0.0 above. We only want to see them when we hiver. So they are normally set to 0.0*/
+} 
+.imageContainer:hover > .overlayImage,
+.imageContainer:hover > .attribution
+{
+  opacity: 0.7;
+}
