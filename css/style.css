@@ -41,6 +41,7 @@ aside {
 
 footer {
   grid-area: footer;
+  display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #87543c;
