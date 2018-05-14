@@ -1,5 +1,9 @@
+.body {
+  font-family: 'Josefin Slab', serif;
+}
 .container {
   display: grid;
+  font-family: 'Josefin Slab', serif;
 
   grid-template-areas:
     "header header header"
@@ -40,8 +44,8 @@ aside {
 }
 
 footer {
-  grid-area: footer;
   display: flex;
+  grid-area: footer;
   justify-content: space-between;
   align-items: center;
   background-color: #87543c;
@@ -109,6 +113,13 @@ header {
   align-content: center;
   margin: .2rem;
 }
+.objective-grid-item  p {
+  text-align: center;
+}
+
+.objective-grid-item  i {
+  align: center;
+}
 
 .discussion-grid {
   display: flex;
@@ -127,6 +138,22 @@ header {
   align-content: center;
 }
 
+.intro-grid {
+  display: flex;
+  justify-content: center;    /* Change this */
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.intro-grid-container {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.intro-grid-item {
+  width: 100%;
+  align-content: center;
+}
 .u-photo .avatar {
   width:250px;
   height:250px;
@@ -151,6 +178,69 @@ header {
   -webkit-border-radius: 500px;
   -moz-border-radius: 500px;
 }
+
+.readings h2 {
+  text-align:center;
+}
+.readings p {
+  padding-left: 2em;
+  text-indent: -2em;
+}
+
+.tasks h2
+{
+  text-align: center;
+}
+.tasks-grid {
+  display: flex;
+  justify-content: center;    /* Change this */
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tasks-grid-container {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tasks-grid-item {
+  border: 2px solid #6f6f59;
+  width: 3100%;
+  color: white;
+  background-color: #6f6f59;
+  align-content: center;
+  margin: .2rem;
+ 
+}
+.assessment-grid-container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 50% 50%;/*Make the grid smaller than the container*/
+  grid-gap: 10px;
+  background-color: #87543c;
+  padding: 10px;
+}
+.assessment-grid-container > div {
+  background-color: #6f6f59;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 2em;
+  color: white;
+}
+
+.assessment-grid-container h4 {
+  font-size: .75em;
+}
+.assessment-grid-container ul {
+  font-size: .5em;
+}
+
+.fa  {
+  displaY:inline-block;
+  text-align: center;
+}
+
+/* Following CSS is for creative common image overlays */
 
 .cc:hover .text1,  .cc:hover .text2,.cc:hover .text3,.cc:hover .text3, .cc:hover .text4,.cc:hover .text5, .cc:hover .text6
 { opacity:0.9;
