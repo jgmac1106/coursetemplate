@@ -128,22 +128,19 @@
             </div>
           </section>
 
-      </main>
-
-     
-
-      <footer>
-        <ul>
-          <li>Twitter</li>
-          <li>GitHub</li></ul>
-        <p class="h-card">
-          <img class="u-photo" src="http://www.southernct.edu/academics/schools/education/departments/elementaryeducation/faculty/images/SCSU_17_GregMcVarry-117fs.jpg" alt="" />
-          <a class="p-name u-url" href="http://example.org">Greg McVerry</a>
-          <a class="u-email" href="mailto:mcverryj1@southernct.edu">mcverryj1@southernct.edu</a>, 
-          <a class="p-organization u-url" href="http://www.southernct.edu/academics/schools/education/departments/elementaryeducation/index.html">Southern Connecticut State University</a>
-        </p>
-        <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
-      </footer>
+      </main>   
+  <footer>
+         <ul>
+           <li>Twitter</li>
+            <li>GitHub</li>
+          </ul>
+           <p class="h-card">
+             <a class="p-name u-url" href="https://jgregorymcverry.com">Greg McVerry</a>
+              <a class="u-email" href="mailto:mcverryj1@southernct.edu">mcverryj1@southernct.edu</a>, 
+               <a class="p-organization u-url" href="http://www.southernct.edu/academics/schools/education/departments/elementaryeducation/index.html">Southern Connecticut State University</a>
+            </p>
+           <div><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</div>
+        </footer>
     </div>
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
